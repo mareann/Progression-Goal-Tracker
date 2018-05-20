@@ -16,7 +16,7 @@ Progression is full MERN Stack app that helps users to set their goals, and find
 -AWS S3
 
 ##### Below is Main Progression screen
-![screen](client/src/images/progression_main.jpg)
+![screen](progression_main.jpg)
 
 ##Local deployment
 1. clone the folder
