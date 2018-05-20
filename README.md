@@ -21,10 +21,19 @@ Progression is full MERN Stack app that helps users to set their goals, and find
 ##### Progression Signup screen
 ![screen](progression_signup_page.jpg)
 
-##### Progression Goal
+##### Progression Login
+![screen](progression_login.jpg)
+
+##### Progression User Home
+![screen](progression_userhome.jpg)
 ![screen](progression_userhome_goal_dog.jpg)
 
+##### Progression Search Goals
+![screen](progression_search.jpg)
+![screen](progression_search_fitness.jpg)
 
+##### Progression About Page
+![screen](progression_about_page.jpg)
 
 ##Local deployment
 1. clone the folder
