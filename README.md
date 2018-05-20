@@ -9,10 +9,14 @@ Progression is full MERN Stack app that helps users to set their goals, and find
 -Axios
 -Bcrypt
 -MongoDB
+-Mongoose
 -NODE.js
 -Express.js
 -Material-UI
 -AWS S3
+
+##### Below is Main Progression screen
+![screen](client/src/images/progression_main.jpg)
 
 ##Local deployment
 1. clone the folder
