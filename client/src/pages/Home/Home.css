@@ -1,0 +1,64 @@
+*{      font-family:sans-serif;
+
+
+}
+.image{
+    /* background-image: url("../../images/wallpaper.jpg"); */
+    background-color: white;
+    background-size:contain;
+    max-width: 2000px;
+    background-blend-mode: lighten;
+}
+.jumbotron{
+background-image: url("../../images/dreambig.jpg");
+background-size: cover;
+height: 450px;
+background-position: right;
+
+
+}
+.jumbocontainer{
+    
+}
+h5{
+    
+    color: white;
+    float:left;
+    font-family:sans-serif;
+    font-size: 40px;
+    
+}
+h6{
+    clear: left;
+    font-size:30px;
+    color:white;
+    float:left;
+}
+.landingRotating {
+    clear:left;
+    float:left;
+    font-size: 2em !important;
+    font-weight: 400 !important;
+    color: white !important;
+    opacity: 0.8 !important;
+  }
+.show-grid{
+    background: white;
+}
+.intro{
+    height:200px;
+    width:320px;
+    object-fit: cover;
+}
+.button{
+    clear:left;
+    float:left;
+    width:200px;
+}
+
+#flex {
+    display: flex;
+    text-align: center;
+/*    background-color: #94d4ff;*/
+/*    padding-top: 50px;*/
+}

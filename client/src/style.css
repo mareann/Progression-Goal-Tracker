@@ -1,0 +1,62 @@
+* {
+	font-family: Superclarendon;
+}
+
+.jumbotron {
+	color: white;
+	text-align: center;
+}
+
+.jumbotronabout {
+	color: white;
+	text-align: center;
+	padding: 14em 2em;
+	color: black;
+}
+
+#header, #header2 {
+	text-align: center;
+}
+
+.form-group {
+	font-size: 25px;
+}
+
+#goals {
+	font-size: 35px;
+}
+
+#run-search, .goal {
+	width: 100px;
+}
+
+#createGoal, .btn-info {
+	width: 150px;
+}
+
+.goal {
+  margin: 20px;
+}
+
+#exampleFormControlFile1 {
+	margin-left: 500px;
+}
+
+#GoalHeaderDiv {
+	padding-top: 3rem;
+}
+
+#goalheader, #header2, #goalsearchheader {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+#follow {
+	margin: 10px;
+	font-size: 35px;
+}
+
+#about {
+	color: white;
+	font-size: 36px;
+}
