@@ -1,5 +1,6 @@
-# Progression
-Progression is full MERN Stack app that helps users to set their goals, and find other peoples goal.
+## Progression
+```
+Progression is MERN Full Stack app that helps users to set their goals, and follow other peoples goals. It has user authenication and AWS S3 image storage.
 
 ## Technology
 -HTML
@@ -14,7 +15,7 @@ Progression is full MERN Stack app that helps users to set their goals, and find
 -Express.js
 -Material-UI
 -AWS S3
-
+```
 #####  Main Progression screen
 ![screen](progression_main.jpg)
 
@@ -30,6 +31,8 @@ Progression is full MERN Stack app that helps users to set their goals, and find
 
 ##### Progression Search Goals
 ![screen](progression_search.jpg)
+
+##### Progression Search for Fitness Goals
 ![screen](progression_search_fitness.jpg)
 
 ##### Progression About Page
