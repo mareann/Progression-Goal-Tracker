@@ -39,7 +39,7 @@ Progression is MERN Full Stack app that helps users to set their goals, and foll
 ![screen](progression_about_page.jpg)
 
 
-##Local deployment
+## Local deployment
 ```
 1. clone the folder
 2. yarn install on client folder
