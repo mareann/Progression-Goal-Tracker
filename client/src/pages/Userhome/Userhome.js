@@ -7,20 +7,16 @@ import MenuItem from 'material-ui/MenuItem';
 import AppBar from 'material-ui/AppBar';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-import IconButton from 'material-ui/IconButton';
-import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import image from '../../images/wallpaper.jpg';
 
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import {Card, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import Toggle from 'material-ui/Toggle';
-import {Row,Col,Container} from "../../components/Grid"
-import {List,ListItem} from "../../components/List";
-import RaisedButton from 'material-ui/RaisedButton';
+//import {Row,Col,Container} from "../../components/Grid"
+import {List} from "../../components/List";
 import Goalform from "../../components/Goalform";
 import Goalheader from "../../components/Goalheader";
 import Goalsfollowing from "../../components/Goalsfollowing";
-import axios from "axios";
+//import axios from "axios";
 import Slider from 'material-ui/Slider';
 // import Nav from "../../components/Nav";
 //var ObjectId = require('mongoose').Types.ObjectId;
@@ -93,8 +89,10 @@ class UserHome extends Component  {
     console.log("this is the the ID: " + id)
     this.getGoals(id);
     localStorage.setItem("username",id)
-    if (id)
-      this.state.username = id;
+    if (id) {
+      this.setState({
+      username: id
+    })}
     // this.getGoals(id);
 
   }
@@ -322,7 +320,7 @@ class UserHome extends Component  {
     //this.getGoals();
     //this.UserGoals()
     console.log(this.state)
-    const{username,category,description,filename} = this.state
+    const {username,category,description,filename} = this.state
     let tmp = this.state.description.toUpperCase();
     console.log("tmp desc "+tmp)
     API.saveGoal({
@@ -406,7 +404,10 @@ class UserHome extends Component  {
     console.log("handleSliderClick "+id)
 
     let tmp = Math.round(100*this.state.slider)
-    this.state.percent = tmp
+    this.setState({
+      percent: tmp
+    })
+    //this.state.percent = tmp
 
     console.log(tmp)
     API.updateGoal({
@@ -502,11 +503,12 @@ class UserHome extends Component  {
           <br/><span style={{fontSize:"1rem"}}>Select Save Progress to update!</span>
         </p>
       <button
-      type="submit" 
-      className="btn btn-light" 
-      key={i}
-
-      id={goal._id} type="submit" onClick={() => this.handleSliderClick(goal._id)}
+        type="submit" 
+        className="btn btn-light" 
+        key={i}
+        id={goal._id} 
+        type="submit" 
+        onClick={() => this.handleSliderClick(goal._id)}
       > Save progress 
       </button>
               </CardText>
